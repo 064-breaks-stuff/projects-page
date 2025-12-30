@@ -1,4 +1,6 @@
-This repository lists all the projects I've either built from scratch or replicated in Python. Each file within this repo contains the project code I've developed, with a note at the top of the file indicating the aim, purpose and methodology of the listed implementation, along with a list of the libraries used.📋
+This repository holds the HTML page that I built as a showcase for all the projects I have completed as well as the projects that are still in progress/are being planned for the future.▶️
+
+This repository also lists all the projects in individual files. Each file within this repo contains the project code I've developed, with a note at the top of the file indicating the aim, purpose and methodology of the listed implementation, along with a list of the libraries used.📋
 
 These projects primarily span the following areas: web app development, data analysis/data science and machine learning.⚠️
 
