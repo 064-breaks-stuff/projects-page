@@ -223,7 +223,7 @@
             box-shadow: 0 0 15px rgba(99, 102, 241, 0.7), 0 0 25px rgba(139, 92, 246, 0.4);
         }
 
-        /* Status Badge */
+        /* Status Badge (unused visually now but kept for extensibility) */
         .status-badge {
             display: inline-flex;
             align-items: center;
@@ -310,6 +310,108 @@
             text-shadow: 0 0 15px rgba(139, 92, 246, 0.5), 0 0 30px rgba(139, 92, 246, 0.2);
         }
 
+        /* Social Links Section */
+        #socials {
+            margin-bottom: var(--space-xl);
+        }
+
+        #socials h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-md);
+            display: inline-block;
+            color: #06B6D4;
+            border-bottom: 2px solid #06B6D4;
+            text-shadow: 0 0 15px rgba(6, 182, 212, 0.5), 0 0 30px rgba(6, 182, 212, 0.2);
+        }
+
+        .section-subtitle {
+            color: var(--color-text-secondary);
+            font-size: 14px;
+            margin-bottom: var(--space-lg);
+        }
+
+        .socials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+
+        .social-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            transition: all var(--duration) ease;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .social-card:hover {
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.4), 0 0 60px rgba(99, 102, 241, 0.2);
+            border-color: #06B6D4;
+            transform: translateY(-4px);
+        }
+
+        .social-icon {
+            font-size: 48px;
+            margin-bottom: var(--space-md);
+        }
+
+        .social-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+            background: linear-gradient(135deg, #A5B4FC, #C7D2FE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .social-card p {
+            color: var(--color-text-secondary);
+            font-size: 14px;
+            margin-bottom: var(--space-md);
+            text-shadow: 0 0 10px rgba(165, 180, 252, 0.1);
+        }
+
+        .social-link {
+            color: #06B6D4;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all var(--duration) ease;
+            padding: var(--space-sm) var(--space-md);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: var(--radius-sm);
+        }
+
+        .social-link:hover {
+            color: #E0E7FF;
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(99, 102, 241, 0.1));
+            border-color: #06B6D4;
+            box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: var(--space-xl);
+            padding: var(--space-lg) 0;
+            border-top: 1px solid var(--color-border);
+            text-align: center;
+            color: var(--color-text-secondary);
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+            text-shadow: 0 0 10px rgba(165, 180, 252, 0.1);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .projects-grid {
@@ -322,6 +424,10 @@
 
             main {
                 padding: var(--space-lg) 0;
+            }
+
+            .domain-grid {
+                grid-template-columns: 1fr;
             }
         }
 
@@ -618,7 +724,40 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Social Links Section -->
+            <section id="socials">
+                <h2>Connect With Me</h2>
+                <p class="section-subtitle">My Professional Socials</p>
+                <div class="socials-grid">
+                    <div class="social-card">
+                        <div class="social-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional network and work history</p>
+                        <a href="https://www.linkedin.com/in/karthik-kris/" target="_blank" rel="noopener noreferrer" class="social-link">Visit Profile →</a>
+                    </div>
+
+                    <div class="social-card">
+                        <div class="social-icon">🔗</div>
+                        <h3>GitHub</h3>
+                        <p>Source codes and open-source contributions</p>
+                        <a href="https://github.com/0highlight64-breaks-stuff" target="_blank" rel="noopener noreferrer" class="social-link">View Repository →</a>
+                    </div>
+
+                    <div class="social-card">
+                        <div class="social-icon">🏆</div>
+                        <h3>HackerRank</h3>
+                        <p>Badges and Certifications</p>
+                        <a href="https://www.hackerrank.com/profile/kvklinkedin47" target="_blank" rel="noopener noreferrer" class="social-link">See Badges →</a>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Karthik V Krishnan. All rights reserved. Still no idea how I made this.</p>
+    </footer>
 </body>
 </html>
