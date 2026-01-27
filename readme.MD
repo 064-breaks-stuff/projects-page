@@ -1,11 +1,1 @@
 This repository holds the HTML page that I built as a showcase for all the projects I have completed as well as the projects that are still in progress/are being planned for the future.▶️
-
-This repository also lists all the projects in individual files. Each file within this repo contains the project code I've developed, with a note at the top of the file indicating the aim, purpose and methodology of the listed implementation, along with a list of the libraries used.📋
-
-These projects primarily span the following areas: web app development, data analysis/data science and machine learning.⚠️
-
-Some of these projects are simply re-implementations or "cloning" of existing ideas or concepts, while others are prototypes or fully functioning versions of novel ideas. The status of the project, along with its origin (if any) will similarly be listed at the beginning of each respective file.📂
-
-Each file within this repo is dedicated to a single project alone to maintain consistency and organisation. If the project appears to exceed the practicality aspect of being listed in a single file, then a dedicated repo will be set up to host the project and a link for the same will be attached to its respective file within this repo.📂
-
-Where possible, even if multiple jupyter notebooks or python scripts are utilised/developed in the implementation in question, all the code involved will be listed within the same file but with clear demarcations and file names indicating the start and end of the code to be hosted within each of the separate files.👨‍💻
